@@ -1,10 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, Brain, Lungs, Stethoscope } from "lucide-react";
+import { Heart, Brain, Stethoscope, Activity } from "lucide-react";
 
 const services = [
   { title: "Cardiology", icon: Heart, description: "Comprehensive heart health services" },
   { title: "Neurology", icon: Brain, description: "Expert care for neurological conditions" },
-  { title: "Pulmonology", icon: Lungs, description: "Specialized respiratory treatments" },
+  { title: "Pulmonology", icon: Activity, description: "Specialized respiratory treatments" },
   { title: "General Medicine", icon: Stethoscope, description: "Routine check-ups and preventive care" },
 ];
 
